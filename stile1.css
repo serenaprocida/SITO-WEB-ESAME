@@ -58,61 +58,76 @@ nav ul li a {
     padding-inline-end: 25px;
     background-color: rgb(217, 217, 217);  
 }
+
+
 h1 {
     text-align: center;
 }
 h2 {
-    font-size: 45px;
     text-align: center;
+    font-size: 50px;
 }
 img {
+    padding: 20px;
     max-width: 100%;
     display: block;
     margin:auto; 
-    width: 1164px;
-    height: 550px;
+    width: 1000px;
+    height: 500px;
     object-fit: cover;
 }
-h3 {
-    font-size: 30px;
-    margin: 30px;
-}
-p {
-    font-size: 25px;
-    margin: 30px;
-}
-section.card {
-    padding: 40px;
+section.stile {
+    padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 200px; 
+    gap:200px; 
 }
-section.card h4 {
-    margin-top: 200px;
-    text-align: center;
-    font-size: 30px;
+section.stile p {
+    font-size: 25px;
+    width: 890px;
+    margin-left: 30px;
+}
+section.stile img {
+    width: 335px;
+    height: 180px;
+    object-fit: cover;
+    width: 100%;
+    margin-right: 30px;
+}
+section.card {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px; 
+}
+section.card p {
+    margin-bottom: 10px;
 }
 section.card img {
-    height: 400px;
-    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
     width: 100%;
 }
 section.hero {
-  background-color: rgb(152, 154, 154);
-  padding: 10px 0px 10px 0;
-  margin-top: 100px;
-}
-section.hero img {
-    object-fit: contain;
-    height: 30px;
-    width: 30px;
-    display: inline;
-}
-section.stile {
-    text-align: center;
-    background-color: rgb(188, 188, 188);
-    max-width: 100%;
-    margin: 0;
-    margin-top: 10px;
-}
+    background-color: rgb(152, 154, 154);
+    padding: 10px 0px 10px 0;
+    margin-top: 100px;
+  }
+  section.hero img {
+      object-fit: contain;
+      height: 30px;
+      width: 30px;
+      display: inline;
+  }
+  section.stili {
+      text-align: center;
+      background-color: rgb(188, 188, 188);
+      max-width: 100%;
+      margin: 0;
+      margin-top: 10px;
+  }
+  
+
+
 
