@@ -93,20 +93,37 @@ section.card h4 {
     font-size: 30px;
 }
 section.card img {
-    height: 400px;
+    height: 400ù0px;
     object-fit: cover;
     width: 100%;
 }
 section.hero {
-  background-color: rgb(152, 154, 154);
-  padding: 10px 0px 10px 0;
-  margin-top: 100px;
+    background-color: rgb(152, 154, 154);
+    padding: 10px 0px 10px 0;
+    margin-top: 100px;
 }
 section.hero img {
     object-fit: contain;
     height: 30px;
     width: 30px;
     display: inline;
+}
+section.hero ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 100px;
+    font-size: 25px;
+}
+section.hero div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.hero p {
+    text-align: center;
+    font-size: 15px;
 }
 section.stile {
     text-align: center;
