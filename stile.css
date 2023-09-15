@@ -132,4 +132,25 @@ section.stile {
     margin: 0;
     margin-top: 10px;
 }
+@media (max-width: 600px) { /* se la finestra ha una larghezza minore di 600px, fai lo sfondo giallo */
+
+    body {
+
+        background: yellow;
+
+    }
+
+ 
+
+    section.card {
+
+        grid-template-columns: 1fr;
+
+        padding: 15px;
+
+        gap:15px
+
+    }
+
+}
 
