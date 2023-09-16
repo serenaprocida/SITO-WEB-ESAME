@@ -67,11 +67,6 @@ h2 {
 }
 img {
     max-width: 100%;
-    display: block;
-    margin:auto; 
-    width: 1164px;
-    height: 550px;
-    object-fit: cover;
 }
 h3 {
     font-size: 30px;
@@ -81,49 +76,60 @@ p {
     font-size: 25px;
     margin: 30px;
 }
+.hero-1 {
+    text-align: center;
+}
 section.card {
-    padding: 40px;
+    padding: 40px, 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 200px; 
+    max-width: 1200px;
+    margin: auto;
+    gap: 60px 20px; 
 }
-section.card h4 {
-    margin-top: 200px;
+section.intro h4, section.card h4 {
+    margin: 0px;
+    padding-bottom: 20px;
     text-align: center;
     font-size: 30px;
 }
 section.card img {
-    height: 400ù0px;
+    height: 400px;
     object-fit: cover;
     width: 100%;
 }
-section.hero {
+footer {
     background-color: rgb(152, 154, 154);
     padding: 10px 0px 10px 0;
     margin-top: 100px;
 }
-section.hero img {
+footer img {
     object-fit: contain;
     height: 30px;
     width: 30px;
     display: inline;
 }
-section.hero ul{
+footer ul{
     list-style: none;
     display: flex;
     align-items: center;
     justify-content:center;
-    gap: 100px;
+    gap: 10px;
     font-size: 25px;
+    margin: 0;
+    padding: 20px 0;
 }
-section.hero div {
+footer div {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
-section.hero p {
+footer p {
     text-align: center;
     font-size: 15px;
+    margin: 0;
+    padding: 20px 0;
 }
 section.stile {
     text-align: center;
@@ -132,25 +138,30 @@ section.stile {
     margin: 0;
     margin-top: 10px;
 }
-@media (max-width: 600px) { /* se la finestra ha una larghezza minore di 600px, fai lo sfondo giallo */
+.intro {
+    max-width: 1200px;
+    margin: auto;
+}
 
-    body {
 
-        background: yellow;
 
-    }
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
 
     section.card {
-
         grid-template-columns: 1fr;
-
-        padding: 15px;
-
-        gap:15px
-
     }
-
 }
 
