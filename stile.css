@@ -2,17 +2,17 @@ body {
     font-family: arial;
     margin: 0;
 }
+header {
+   text-align: center; 
+}
 header img {
-    width: 100%;
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 10px 0 0 0;
     width: 200px;
     height: 50px;
     object-fit: contain;
 }
 nav {
-    background-color: rgb(217, 217, 217);
+    background-color: rgb(173, 197, 255);
     height: 100px;
     width: 100%;
     top: 0;
@@ -57,7 +57,7 @@ nav ul li a {
     padding-top: 40px;
     padding-bottom: 5px;
     padding-inline-end: 25px;
-    background-color: rgb(217, 217, 217);  
+    background-color: rgb(173, 197, 255);  
 }
 h1 {
     text-align: center;
@@ -101,7 +101,7 @@ section.card img {
     width: 100%;
 }
 footer {
-    background-color: rgb(152, 154, 154);
+    background-color: rgb(173, 197, 255);
     padding: 10px 0px 10px 0;
     margin-top: 100px;
 }
@@ -135,7 +135,6 @@ footer p {
 }
 section.stile {
     text-align: center;
-    background-color: rgb(188, 188, 188);
     max-width: 100%;
     margin: 0;
     margin-top: 10px;
@@ -154,8 +153,6 @@ section.stile img {
     max-width: 1200px;
     margin: auto;
 }
-
-
 section.page {
     padding: 40px, 20px;
     display: grid;
@@ -175,6 +172,13 @@ section.page img {
     object-fit: cover;
     width: 100%;
 }
+
+section.immage {
+    padding: 80px;
+    margin: 0 0 0 0;
+    max-width: 100%;
+    text-align: center;
+} 
 
 
 
